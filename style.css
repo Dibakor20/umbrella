@@ -1,0 +1,497 @@
+/* font-family: 'Open Sans', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-image:url(img/umbrella\ PSD.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-bottom: 80px;
+}
+nav .nav-link:hover {
+    color: orangered !important;
+}
+.header-nav{
+    padding: 40px 0px;
+}
+.nav-item{
+    padding-right: 40px;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+}
+.navbar-brand{
+    color: #282528;
+font-weight: 700;
+}
+.home{
+    color: #282528;
+font-weight: 700;
+}
+.hand img{
+    padding-top: 80px;
+    height: 535px;
+    width: 320px !important;
+}
+.banner-text{
+    padding: 80px 0px;
+}
+.banner-text h3{
+    color: #282528;
+font-weight: 700
+}
+.banner-text h4{
+    color:#282528 ;
+    font-weight: 400;
+}
+
+.download {
+    padding: 12px 30px;
+    border: none;
+    background: none;
+    color: black;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.fa-cloud-download:before {
+    content: "\f0ed";
+    padding-right: 15px;
+}
+.fa-eye::before {
+    content: "";
+    padding-right: 15px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    display: none;
+}
+.owl-carousel .owl-nav button.owl-next{
+    display: none;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background:white !important;
+    display: block;
+    backface-visibility: visible;
+    transition: opacity 0.2s ease 0s;
+    border-radius: 30px;
+  
+}
+.owl-theme .owl-dots{
+   
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+}
+.feature{
+    padding-bottom: 140px;
+}
+.feature-text{
+    text-align: center;
+    
+}
+.feature-text h3{
+    color: #282528;
+font-weight: 700;
+padding: 20px 0px;
+position: relative;
+}
+.fa-tools{
+    font-size: 35px;
+    padding-top:5px;
+}
+.tool{
+    padding: 30px 20px;
+}
+.col-md-10 h3{
+    font-size: 16px;
+line-height: 18px;
+color: #282528;
+font-weight: 700;
+font-family: "Open Sans";
+}
+.fal, .far {
+    font-family: "Font Awesome 5 Pro";
+    font-size: 35px;
+}
+.seudo::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background:gray;
+    position: absolute;
+    top: 50%;
+    right:25%;
+}
+.seudo::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background:gray;
+    position: absolute;
+    top: 50%;
+    left:25%;
+}
+.gallery-text{
+    text-align: center;
+}
+.gallery-text h3{
+    color: #282528;
+    font-weight: 700;
+    padding: 20px 0px;
+    position: relative;
+}
+.seudo-gellary::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background:gray;
+    position: absolute;
+    top: 50%;
+    right:22%;
+}
+.seudo-gellary::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background:gray;
+    position: absolute;
+    top: 50%;
+    left:22%;
+}
+.gallery-carosule .owl-theme .owl-dots .owl-dot span{
+    background-color:gray !important;
+}
+.gallery{
+    padding-bottom: 130px;
+}
+.gallery-carosule{
+    position: relative;
+}
+.gallery-carosule .owl-theme .owl-dots{
+    position: absolute;
+ top: 330px;
+ left: 500px;
+}
+.video-img i{
+	
+    font-size: 45px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    /* align-items: center; */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    color: white;
+}
+.video-img{
+    position: relative;
+    
+}
+.video-img img{
+    height: 500px;
+    width: 100%;
+}
+.start{
+    position: absolute;
+    top: 53%;
+    bottom: 50%;
+    left: 42%;
+    letter-spacing: 10px;
+}
+.show{
+    margin-bottom: 130px;
+}
+.umbrella {
+    position: absolute;
+    top: 80%;
+    right: 15%;
+    
+}
+.umbrella i{
+    position: relative;
+}
+.um{
+    font-size: 26px;
+    position: absolute;
+    padding-left: 10px;
+}
+.app-text{
+    text-align: center;
+}
+.app-text h3{
+    color: #282528;
+    font-weight: 700;
+    padding: 20px 0px;
+    position: relative;
+}
+.people::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background:gray;
+    position: absolute;
+    top: 50%;
+    right:22%;
+}
+.people::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background:gray;
+    position: absolute;
+    top: 50%;
+    left:22%;
+}
+.app{
+    padding-bottom: 130px;
+}
+.card-body{
+    height: 250px;
+    background-color: yellow;
+}
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+}
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid rgba(211, 211, 211, 0.5) ;
+   background: rgba(211, 211, 211, 0.5);
+    
+}
+.social-icon li a i{
+   color: white;
+}
+.social-icon ul{
+    padding-top: 50px;
+    text-align: center;
+}
+.cotetion{
+        font-size: 240px;
+        font-family: "Georgia";
+        color: rgb(239, 239, 239);
+        line-height: 0.15;
+        text-align:center;
+       padding-top: 80px;
+       
+      }
+.comment .owl-theme .owl-dots .owl-dot span{
+    background: gray !important;
+}
+.comment .item img{
+    
+    width: 80px !important;
+    margin-left: 520px;
+}
+.com{
+    text-align: center;
+    position: relative;
+}
+.comment .owl-theme .owl-dots {
+    position: absolute;
+    bottom: -60px;
+    left: 520px;
+}
+.client{
+    padding-bottom: 120px;
+}
+.feature-in{
+    width: 100%;
+    background-image: url(img/showrel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:400px;
+    margin-bottom: 80px;
+}
+.feature-in h3{
+    color: #282528;
+    font-weight: 700;
+    padding: 60px 0px;
+    position: relative;
+    text-align: center;
+}
+.do::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background:gray;
+    position: absolute;
+    top: 50%;
+    right:30%;
+}
+.do::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background:gray;
+    position: absolute;
+    top: 50%;
+    left:30%;
+}
+.client-img .owl-carousel .owl-item img {
+    display: block;
+    width: 100px;
+    padding-left: 20px;
+}
+.client-img .owl-theme .owl-dots .owl-dot span{
+    display: none;
+}
+.client-img img{
+    filter: grayscale(1);
+    opacity: 0.4;
+}
+.client-img img:hover{
+    filter: none;
+    opacity: 1;
+}
+.client-img{
+    padding-top: 70px;
+    padding-left: 80px;
+}
+.get-text{
+    text-align: center;
+}
+.get-text h3{
+    color: #282528;
+    font-weight: 700;
+    padding: 60px 0px;
+    position: relative;
+    text-align: center;
+}
+.conatct-form .form-control{
+    border-radius: 0;
+    margin-bottom: 50px;
+   border: none;
+   border-bottom: 1px solid gray;
+}
+.ic{
+    float:right;
+    padding-right: 460px;
+    padding-top: 8px;
+}
+.touch-icon li{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+  padding: 10px 0px;
+    text-align: center;
+    line-height: 35px;
+    border: none;   
+}
+.touch-icon li i:hover{
+    transform: scale(0.6);
+}
+.touch-icon ul{
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.touch-icon li i{
+    color: gray !important;
+}
+.get-in{
+    border-bottom: 5px solid yellow;
+    
+}
+.touch{
+    margin-bottom: 120px;
+}
+footer img{
+    height: 60px;
+    width: 200px;
+} 
+.button-arrow{
+    width: 300px;
+    height: 50px;
+    border: 1px solid gray;
+    margin-top: 70px;
+}
+.button-arrow .fal {
+    padding-left: 250px;
+    padding-top: 5px;
+    color: gray;
+}
+.arow{
+    color: #282528;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.arow-2{
+    color: #282528;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 40px;
+}
+.et p{
+    margin-left: 50px;
+}
+.el p{
+    margin-left: 0px;
+    
+}
+.el{
+    margin-top: 95px;
+}
+.heart .fal{
+    font-family: "Font Awesome 5 Pro";
+    font-size: 15px;
+    color: red;
+}
+.heart{
+    margin-top: 95px;
+    position: relative;
+}
+.line{
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    border: 1px solid tomato;
+    right: 30px;
+    bottom: 130px;
+}
+.line-2{
+    height: 60px;
+    width: 0px;
+    position: absolute;
+    border: 1px solid tomato;
+    left:5px;
+    bottom: 100px;
+}
+footer{
+    background-image: url(img/showrel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.last{
+    padding-top: 40px;
+}
