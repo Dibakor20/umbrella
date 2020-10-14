@@ -1,0 +1,215 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   
+    
+  }
+  
+  
+  
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+      header{
+          height: auto;
+      }
+    .banner-text {
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .banner-text h4{
+        font-size: 20px;
+    }
+    .hand img {
+        padding-top: 20px;
+        height: auto;
+        text-align: center;
+    }
+    .feature-text h3{
+        padding: 0px;
+    }
+    .seudo::before{
+        display: none;
+    }
+    .seudo::after{
+        display: none;
+    }
+    .tool{
+        text-align: center;
+    }
+    .feature-text p{
+        padding-bottom: 0px;
+    }
+    .feature{
+        padding-bottom: 0px;
+    }
+    .seudo-gellary::before {
+        display: none;
+    }
+    .seudo-gellary::after{
+        display: none;
+    }
+    .gallery .owl-carousel .owl-item img{
+        padding-bottom: 30px;
+    }
+    .gallery{
+        padding-bottom: 0px;
+    }
+    .video-img img{
+        height: auto;
+    }
+    .start{
+        padding: 0px;
+        top: 46%;
+        left: 28%;
+    }
+    .video-img i{
+        top: 35%;
+        left: 48%;
+        font-size: 25px;
+    }
+    .umbrella {
+        top: 71%;
+        right:25%;
+    }
+    .um {
+        font-size: 15px;
+    }
+    .show{
+        margin-bottom: 40px;
+    }
+    .people::before{
+        display: none;
+    }
+    .people::after{
+        display: none;
+    }
+    .app-text h3 {
+        font-size: 26px;
+        padding: 0px;
+    }
+    .card{
+        margin-left: 30px;
+    }
+    .app{
+        padding-bottom: 30px;
+    }
+    .comment .item img{
+        margin-left: 100px;
+    }
+    .client p{
+        padding-bottom: 30px;
+    }
+    .item h5{
+        padding-right: 60px;
+    }
+    .item p{
+        padding-right: 60px;
+    }
+    .client{
+        padding-bottom: 0px;
+    }
+    .do::before{
+        display: none;
+    }
+    .do::after{
+        display: none;
+    }
+    .feature-in{
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .feature-in h3 {
+        padding: 20px 0px;
+    }
+    .client-img{
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+    }
+    .get-text h3{
+        padding: 0px;
+    }
+    .get-text p{
+        padding: 0px;
+        font-size: 11px;
+    }
+    .conatct-form h3{
+        margin: 40px 0px;
+        text-align: center;
+    }
+    .ic{
+        padding-right: 15px;
+        float: left;
+    }
+    .touch-icon li{
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .get-text p{
+        padding-bottom: 0px;
+    }
+    .touch-icon ul{
+        margin-top: 30px;
+    }
+    footer {
+        height: auto;
+    }
+    .arow{
+        margin-top: 0px;
+    }
+    footer .col-md-3{
+        text-align: center;
+    }
+    .last p{
+        font-size: 11px;
+    }
+    .button-arrow .fal{
+        top: 80px;
+        right: 55px;
+    }
+    .arow-2{
+        margin-left: 0px;
+        padding-bottom: 0px;
+    }
+    .et p{
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .et{
+        display: flex;
+        text-align: center;
+    }
+   
+    
+    .el{
+        margin-top: 0px;
+        display: flex;
+        margin-left: 50px;
+    }
+    .el p{
+        padding-right: 20px;
+    }
+    .heart {
+        margin-top: 30px;
+    }
+    .touch {
+        margin-bottom: 40px;
+    }
+    .line-2{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+  }

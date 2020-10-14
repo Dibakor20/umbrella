@@ -501,3 +501,6 @@ footer{
 .last{
     padding-top: 40px;
 }
+.app .card{
+    width: 16rem;
+}
