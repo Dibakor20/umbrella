@@ -4,8 +4,155 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-   
+    .download{
+        margin-right: 100px;
+    }
+    .banner-text h4{
+        font-size: 20px;
+    }
+    .hand img{
+        height: auto;
+    }
+    .owl-theme .owl-dots {
+        position: absolute;
+        bottom: 5px;
+        left: 252px;
+    }
+    header{
+        margin-bottom: 30px;
+    }
+    .seudo::before{
+        left: 10%;
+    }
+    .seudo::after{
+        right: 10%;
+    }
+    .top {
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+    .feature .col-md-2{
+        max-width: 17.6667%;
+        padding-left: 45px;
+    }
+    .feature img{
+       width: 200px;
+       height: 70vh;
+       padding-top: 40px;
+    }
+    .tool{
+        padding: 0px 20px;
+    }
+    .feature{
+        padding-bottom: 30px;
+    }
+    .seudo-gellary::before {
+       left: 8%;
+    }
+    .seudo-gellary::after{
+        right: 8%;
+    }
+    .gallery-carosule .owl-theme .owl-dots {
+        position: absolute;
+        top: 220px;
+        left: 300px;
+    }
+    .video-img img{
+        height: auto;
+    }
+    .video-img i{
+        top: 48%;
+        left: 56%;
+    }
+    .um{
+        font-size: 16px;
+    }
+    .show{
+        margin-bottom: 20px;
+    }
+    .people::before{
+        left: 5%;
+    }
+    .people::after{
+        right: 5%;
+    }
+    .app .card {
+        width: 15rem;
+        padding-right: 40px;
+    }
+    .app .card-body{
+        height:260px;
+    }
+    .app{
+        padding-bottom: 30px;
+    }
+    .comment .item img{
+        margin-left: 305px;
+    }
+    .cot{
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .comment .owl-theme .owl-dots{
+        left: 300px;
+    }
+    .feature-in{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .do::before{
+        left: 18%;
+    }
+    .do::after{
+        right: 18%;
+    }
+    .client-img {
+        padding-top: 12px;
+        padding-bottom: 30px;
+    }
+    
+    .sed {
+        padding-bottom: 0px;
+    }
+    .touch .row .col-md-7 h3{
+        text-align: center;
+    }
+    .touch img{
+        width: 100%;
+        height: auto;
+        padding-top: 130px;
+    }
+    .get-in{
+        border-bottom: none;
+    }
+    .ic{
+        display: flex;
+        padding-right: 0px;
+       float: none;
+    }
+    footer{
+        height: auto;
+    }
+    .button-arrow input{
+        padding: 10px 0px;
+    }
+    .et p {
+        margin-left: 40px;
+    }
+    footer .col-md-3{
+        padding-left: 36px;
+    }
+    .button-arrow .fal{
+        right: 0px;
+    }
+    .line-2{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    
+
     
   }
   
@@ -140,7 +287,7 @@
     }
     .get-text p{
         padding: 0px;
-        font-size: 11px;
+        font-size: 14px;
     }
     .conatct-form h3{
         margin: 40px 0px;
@@ -173,8 +320,8 @@
         font-size: 11px;
     }
     .button-arrow .fal{
-        top: 80px;
-        right: 55px;
+        top: 38px;
+        right: 80px;
     }
     .arow-2{
         margin-left: 0px;
@@ -212,4 +359,35 @@
     .line{
         display: none;
     }
+    .item p{
+        padding-right: 0px;
+    }
+    .download {
+        margin-right: 0px;
+    }
+    .hand img{
+        padding-left: 70px;
+    }
+    .feature-text p{
+        margin-bottom: 0px;
+    }
+    .app-text p{
+        padding-bottom: 10px;
+    }
+    .comment .item img{
+        margin-left: 122px;
+    }
+    .item h5{
+        padding-right: 0px;
+    }
+    .client p{
+        text-align: center;
+    }
+    .button-arrow input {
+        margin-top: 0px;
+    }
+    .ig{
+        padding-top: 20px;
+    }
+   
   }
